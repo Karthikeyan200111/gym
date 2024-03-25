@@ -26,17 +26,17 @@ const Detail = ({ exerciseDetail }) => {
 
   return (
     <div className='md:flex md:flex-nowrap flex-wrap   p-3'>
-      <div className='w-1/2 p-6 ml-14'>
-        <img src={gifUrl} alt={name} className="rounded-md  " />
+      <div className='md:w-1/2 p-6 md:ml-14 '>
+        <img src={gifUrl} alt={name} className="rounded-md " />
       </div>
       <div className='md:w-1/2'>
         <div className='p-3'>
           <p className='font-bold md:text-4xl text-lg uppercase text-white'>{name}</p>
-          <p className='my-4 text-white text-justify'>
+          <p className='my-4 text-white text-justify leading-7	'>
             Exercises keep you strong.{' '}
             <span style={{ textTransform: 'capitalize' }}>{name}</span> bup is one
-            of the best <br /> exercises to target your {target}. It will help you improve your{' '}
-            <br /> mood and gain energy.
+            of the best exercises to target your {target}.<br></br> It will help you improve your{' '}
+             mood and gain energy.
           </p>
         </div>
         <div className='p-3'>

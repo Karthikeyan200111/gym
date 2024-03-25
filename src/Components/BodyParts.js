@@ -19,7 +19,7 @@ const BodyParts = ({ item, bodyPart, setBodyPart }) => {
         
       }}
     >
-      <img src={Icon} alt="dumbbell" className="md:w-40 md:h-36 md:mt-5 w-24 h-12" />
+      <img src={Icon} alt="dumbbell" className="md:w-40 md:h-36 md:mt-5 w-10 h-10" />
       <p className='font-bold uppercase mt-3 md:text-lg'>{item}</p>
     </div>
   );
