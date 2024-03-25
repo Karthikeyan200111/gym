@@ -43,7 +43,7 @@ const URL="https://exercisedb.p.rapidapi.com/exercises"
         <h1 className="font-bold md:text-3xl text-lg text-white">Awesome Exercises You</h1>
         <h1 className="font-bold md:text-3xl text-lg text-center text-white ">Should Know</h1>
       </div>
-      <div className="my-8  w-full flex items-center justify-center ">
+      <div className="my-5 p-6  w-full flex items-center justify-center ">
         <input
           type="text"
           placeholder="Search Exercises"
@@ -58,7 +58,7 @@ const URL="https://exercisedb.p.rapidapi.com/exercises"
           Search
         </button>
       </div>
-      <div className="w-11/12 p-8 ">
+      <div className="w-11/12 p-4 ">
         <HorizontalResults data={bodyParts} bodyParts  bodyPart={bodyPart} setBodyPart={setBodyPart}/>
       </div>
     </div>

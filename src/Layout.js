@@ -6,7 +6,7 @@ const Layout = () => {
     <div className="w-full overflow-hidden">
       <nav className="bg-black text-white p-4">
         <ul >
-          <div className="flex justify-between gap-8 md:flex md:justify-between">
+          <div className="justify-between gap-10  flex ">
           <div>
             <li className="text-gray-500 hover:text-fuchsia-600 dark:text-gray-400 dark:focus:ring-gray-600 text-xl">
               <Link to="/" className="flex items-center">
